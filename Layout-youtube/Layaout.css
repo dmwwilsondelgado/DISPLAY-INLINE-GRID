@@ -3,16 +3,23 @@
   height: 100vh;
   grid-template-columns: 200px 1fr;
   grid-template-rows: 70pc 1fr;
-
   grid-template-areas: 
   'header header'
   'sidebar content';
 }
-
 .header{
   grid-area: header;
   background-color: rgb(49, 3, 3);
 }
+.sidebar{
+  grid-area: sidebar;
+  background-color: aqua;
+}
+.conten{
+  grid-area: content;
+  background-color: aquamarine;
+}
+
 
 
 

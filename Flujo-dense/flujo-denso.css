@@ -1,0 +1,22 @@
+.grid-denso{
+  display: grid;
+  grid-template-columns: repeat(5 , 1fr);
+  grid-template-rows: repeat(4, 200px);
+  grid-auto-flow: row;
+   grid-auto-flow: dense; 
+   /* flujo denso ocupa espacios claro que por defecto el grid esta en rown; */
+  
+}
+/* .item:nth-child(9){
+  color: aliceblue;
+  background-color: brown;
+  grid-row: span 3;
+  grid-column: span 3;
+} */
+
+.item:nth-child(11){
+  grid-auto-flow: column;
+  color: aliceblue;
+  background-color: aqua;
+  /* grid */
+}
