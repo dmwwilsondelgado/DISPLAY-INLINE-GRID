@@ -1,0 +1,22 @@
+
+/* @import url(../grid-template/style.css); */
+.container{
+  height: 100vh;
+  /* background-color: black; */
+}
+
+.grid-implicita{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 200px);
+  grid-auto-rows: 400px;
+  grid-auto-flow:column ;
+  /* background-color: aqua; */
+  
+}
+
+.item{
+  border: 1px #000000;
+}
+
+
