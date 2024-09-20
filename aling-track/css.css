@@ -1,0 +1,36 @@
+
+@import url(../style.css);
+
+.container{
+    border: 100px black;
+}
+
+
+.aling-track {
+
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    justify-content: center;
+    /* justify-items: stretch; */
+    /* justify-content: center; */
+    /* border-radius: 20px red; */
+    background-color: aliceblue;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* justify-items: end; */
+    /* align-items: start; */
+    /* justify-items: center; */
+    /* align-items: start; */
+    justify-content: space-evenly;
+    align-content: start;
+    align-content: end;
+    align-content: space-between;
+    height: 100vh;
+}
+
+
+.item:nth-child(1){
+    display: grid;
+    justify-content: space-between;
+}

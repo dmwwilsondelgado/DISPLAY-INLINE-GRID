@@ -1,0 +1,33 @@
+.grid-anidada{
+    display: grid;
+    grid-template-columns: repeat( 4,   200px);
+    grid-template-rows: repeat( 4,   200px);
+    justify-content: center;
+}
+
+
+
+.item:nth-child(1){
+    /* background-color: blue; */
+    display: grid;
+
+    grid-template-columns: repeat( 4,   1fr);
+    grid-template-rows: repeat( 4,   1fr);
+
+}
+
+.item:nth-child(15){
+    background-color: aquamarine;
+}
+
+
+
+
+.sub-grid{
+    display: grid;
+    grid-template-columns: repeat( 1,   1fr);
+    grid-template-rows: repeat( 4, 1fr);
+    grid-column:span ;
+    grid-row: 1
+    /4;
+}
